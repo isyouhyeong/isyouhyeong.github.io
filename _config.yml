@@ -1,3 +1,4 @@
+---
 # Your Name or Company
 title: Lee ju hyeong
 
@@ -26,7 +27,7 @@ social:
 # url: "https://isyouhyeong.github.io/"
 # baseurl: ""
 markdown: kramdown
-sharing_image:example.jpg
+sharing_image: assets/img/example.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####

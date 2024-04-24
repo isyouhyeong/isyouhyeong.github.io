@@ -2,13 +2,14 @@
 title: Lee ju hyeong
 
 # Description of your website. This is used for social sharing.
-description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+description: The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
 # A brief blurb about yourself
-content: I want to become a server developer in Korea.
-To the difficult and poor,
-Better information and better services equally
-I'd like to offer it.
+content: |
+  I want to become a server developer.
+  So I develop a medical service app to help the needy and poor.
+  We want to provide equal access to better information and better services.
+  Furthermore, I want to help people whose lives are difficult.
 
 # Add your social links
 social:
@@ -23,7 +24,7 @@ social:
 
 # General settings
 # url: "https://isyouhyeong.github.io/"
-# baseurl: "" 
+# baseurl: ""
 markdown: kramdown
 sharing_image: black.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
@@ -35,3 +36,4 @@ half_side: right
 
 # Full layout
 full_text_position: right # left, right or center
+

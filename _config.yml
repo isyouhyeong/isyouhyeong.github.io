@@ -5,24 +5,27 @@ title: Lee ju hyeong
 description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
 # A brief blurb about yourself
-content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+content: I want to become a server developer in Korea.
+To the difficult and poor,
+Better information and better services equally
+I'd like to offer it.
 
 # Add your social links
 social:
   - platform: github
     url: https://github.com/isyouhyeong
-  - platform: facebook
-    url: https://facebook.com/brianmaierjr
-  - platform: twitter
-    url: https://twitter.com/brianmaierjr
-  - platform: linkedin
-    url: brianmaierjr
+  - platform: instagram
+    url: https://www.instagram.com/isyouh/
+  - platform: Notion
+    url: https://www.notion.so/9ea26b9d7f08487daf515f33b9bce4cf
+  - platform: velog
+    url: https://velog.io/@isyouh77/posts
 
 # General settings
 # url: "https://isyouhyeong.github.io/"
 # baseurl: "" 
 markdown: kramdown
-sharing_image: black.jpeg
+sharing_image: black.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####

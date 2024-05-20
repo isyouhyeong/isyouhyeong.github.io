@@ -27,7 +27,7 @@ social:
 # url: "https://isyouhyeong.github.io/"
 # baseurl: ""
 markdown: kramdown
-sharing_image:"assets/img/bluepicture.jpg"
+sharing_image:"assets/phto.jpg"
 google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####

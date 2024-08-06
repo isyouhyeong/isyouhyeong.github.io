@@ -18,15 +18,15 @@ social:
   - platform: instagram
     url: https://www.instagram.com/isyouh/
   - platform: Notion
-    url: https://www.notion.so/9ea26b9d7f08487daf515f33b9bce4cf
+    url: https://www.notion.so/d829e3df8d6c47ab850687011e101e28
   - platform: velog
     url: https://velog.io/@isyouh77/posts
 
 # General settings
-# url: "https://isyouhyeong.github.io/"
-# baseurl: ""
+url: "https://isyouhyeong.github.io"
+baseurl: ""
 markdown: kramdown
-sharing_image: "assets/img/bluepicture.jpg"
+sharing_image: "example.jpg"
 google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####

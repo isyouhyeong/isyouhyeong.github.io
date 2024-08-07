@@ -7,31 +7,23 @@
     background-position: center;
     position: fixed;
     top: 0;
+    left: 0; /* Ensure the image stays on the left */
 }
 
 .half__content {
     width: 50%;
     padding: 2rem;
-    position: relative; /* Add this if content overlaps with image */
+    position: absolute;
+    right: 0; /* Ensure the content stays on the right */
+    top: 0;
+    height: 100vh;
+    overflow-y: auto; /* Add scroll if content is longer than the view height */
 }
 
 .half--left .half__content {
-    order: 2; /* Content on the right side */
-    margin-left: 50%;
-}
-
-.half--left .half__image {
-    order: 1; /* Image on the left side */
-    left: 0;
-    right: auto;
+    margin-left: auto; /* Ensure content on the right */
 }
 
 .half--right .half__content {
-    order: 1; /* Content on the left side */
-}
-
-.half--right .half__image {
-    order: 2; /* Image on the right side */
-    right: 0;
-    left: auto;
+    order: 1; /* Ensure content is on the left side for right alignment */
 }

@@ -22,7 +22,7 @@ social:
     url: https://velog.io/@isyouh77/posts
 
 # General settings
-url: "https://isyouhyeong.github.io"
+#url: "https://isyouhyeong.github.io"
 # baseurl: "/uni"
 markdown: kramdown
 sharing_image: "bluepicture.jpg"

@@ -1159,3 +1159,17 @@ CONTACT PAGE STYLING
     width: 48%;
     float: right;
     margin-right: 0; } }
+
+.half--left .half__content {
+  order: 2; /* Ensure content is on the right side */
+}
+.half--left .half__image {
+  order: 1; /* Ensure image is on the left side */
+}
+
+.half--right .half__content {
+  order: 1; /* Ensure content is on the left side */
+}
+.half--right .half__image {
+  order: 2; /* Ensure image is on the right side */
+}

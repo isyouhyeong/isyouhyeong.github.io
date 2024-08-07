@@ -1,6 +1,11 @@
 ---
-layout: default
+layout: half
+title: Uni - A simple, one page Jekyll theme
 ---
+  {% if site.title %}
+  <h1 class="pageTitle">{{ site.title }}</h1>
+  {% endif %}
 
-<h1>{{ site.title }}</h1>
-<p>{{ site.content }}</p>
+  {% if site.content %}
+  <p class="pageContent">{{ site.content }}</p>
+  {% endif %}

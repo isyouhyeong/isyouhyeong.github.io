@@ -1,6 +1,5 @@
-source "https://rubygems.org"
+source 'http://rubygems.org'
 
-gem "jekyll", "~> 3.9.5"
-gem "github-pages", group: :jekyll_plugins
-
-
+gem "jekyll"
+gem "jekyll-paginate"
+gem "support-for"

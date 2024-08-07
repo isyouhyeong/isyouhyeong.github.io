@@ -21,7 +21,7 @@ body {
 }
 
 .half__image {
-    width: 50%;
+    width: 50vw; /* Changed from 50% to 50vw */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -30,9 +30,9 @@ body {
 }
 
 .half__content {
-    width: 50%;
+    width: 50vw; /* Changed from 50% to 50vw */
     padding: 2rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100vh;
     overflow-y: auto;
@@ -47,7 +47,7 @@ body {
 
 .half--left .half__content {
     right: 0;
-    margin-left: auto;
+    margin-left: 50vw; /* Changed from auto to 50vw */
 }
 
 .half--right .half__image {

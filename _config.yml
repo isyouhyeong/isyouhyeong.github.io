@@ -22,8 +22,8 @@ social:
     url: https://velog.io/@isyouh77/posts
 
 # General settings
-# url: "https://isyouhyeong.github.io"
-# baseurl: "/uni" 
+url: "https://isyouhyeong.github.io"
+# baseurl: "/uni"
 markdown: kramdown
 sharing_image: "bluepicture.jpg"
 google_analytics: "UA-58263416-1" # google analytics tracking

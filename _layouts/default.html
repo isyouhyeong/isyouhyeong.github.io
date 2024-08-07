@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-{% include head.html %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 
 <body class="half">
-
 <main>
     <div class="half__image half--{{ site.half_side }}" style="background-image: url('{{ site.baseurl }}/assets/img/{{ site.sharing_image }}');"></div>
     <div class="half__content half--{{ site.half_side }}">
@@ -13,7 +17,6 @@
         {% include social.html %}
     </div>
 </main>
-
 </body>
 
 </html>

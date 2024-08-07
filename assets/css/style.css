@@ -41,7 +41,7 @@ body {
     align-items: flex-start;
     box-sizing: border-box;
     /* 중앙 정렬을 위한 추가 스타일 */
-    padding-left: 4rem; /* 왼쪽 여백을 추가하여 중앙에 맞추기 */
+    padding-left: 7rem; /* 왼쪽 여백을 추가하여 중앙에 맞추기 */
     padding-right: 4rem; /* 오른쪽 여백을 추가하여 중앙에 맞추기 */
 }
 

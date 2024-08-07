@@ -32,14 +32,17 @@ body {
 .half__content {
     width: 50vw; /* Viewport의 50% */
     padding: 2rem;
-    position: absolute;
-    top: 50%; /* 중앙 정렬을 위해 추가 */
-    transform: translateY(-50%); /* 중앙 정렬을 위해 추가 */
+    position: fixed;
+    top: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    box-sizing: border-box;
+    /* 중앙 정렬을 위한 추가 스타일 */
+    padding-left: 4rem; /* 왼쪽 여백을 추가하여 중앙에 맞추기 */
+    padding-right: 4rem; /* 오른쪽 여백을 추가하여 중앙에 맞추기 */
 }
 
 .half--left .half__image {

@@ -21,7 +21,7 @@ body {
 }
 
 .half__image {
-    width: 50vw; /* 50% of viewport width */
+    width: 50vw; /* Viewport의 50% */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -30,12 +30,11 @@ body {
 }
 
 .half__content {
-    width: 50vw; /* 50% of viewport width */
+    width: 50vw; /* Viewport의 50% */
     padding: 2rem;
     position: absolute;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
+    top: 50%; /* 중앙 정렬을 위해 추가 */
+    transform: translateY(-50%); /* 중앙 정렬을 위해 추가 */
     right: 0;
     display: flex;
     flex-direction: column;

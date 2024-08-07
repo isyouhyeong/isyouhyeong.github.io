@@ -8,7 +8,8 @@
 <main>
     <div class="half__image half--{{ site.half_side }}" style="background-image: url('{{ site.baseurl }}/assets/img/{{ site.sharing_image }}');"></div>
     <div class="half__content half--{{ site.half_side }}">
-        {{ content }}
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.content }}</p>
         {% include social.html %}
     </div>
 </main>

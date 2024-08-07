@@ -12,25 +12,26 @@
 .half__content {
     width: 50%;
     padding: 2rem;
+    position: relative; /* Add this if content overlaps with image */
 }
 
 .half--left .half__content {
-    order: 2; /* Ensure content is on the right side */
+    order: 2; /* Content on the right side */
     margin-left: 50%;
 }
 
 .half--left .half__image {
-    order: 1; /* Ensure image is on the left side */
+    order: 1; /* Image on the left side */
     left: 0;
     right: auto;
 }
 
 .half--right .half__content {
-    order: 1; /* Ensure content is on the left side */
+    order: 1; /* Content on the left side */
 }
 
 .half--right .half__image {
-    order: 2; /* Ensure image is on the right side */
+    order: 2; /* Image on the right side */
     right: 0;
     left: auto;
 }

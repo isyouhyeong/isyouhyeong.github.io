@@ -2,7 +2,7 @@
 title: Lee ju hyeong
 
 # Description of your website. This is used for social sharing.
-description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+description: The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
 # A brief blurb about yourself
 content: |
@@ -23,8 +23,8 @@ social:
     url: https://velog.io/@isyouh77/posts
 
 # General settings
-# url: "https://isyouhyeong.github.io"
-# baseurl: "/uni" 
+url: "https://isyouhyeong.github.io"
+baseurl: ""
 markdown: kramdown
 sharing_image: "example.jpg"
 google_analytics: "UA-58263416-1" # google analytics tracking

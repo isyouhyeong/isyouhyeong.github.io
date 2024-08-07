@@ -6,11 +6,11 @@
 <body class="half">
 
 <main>
-    <div class="half--{{ site.half_side }} half__content">
+    <div class="half__image half--{{ site.half_side }}" style="background-image: url('{{ site.baseurl }}/assets/img/{{ site.sharing_image }}');"></div>
+    <div class="half__content half--{{ site.half_side }}">
         {{ content }}
         {% include social.html %}
     </div>
-    <div class="half__image" style="background-image: url('{{ site.baseurl }}/assets/img/{{ site.sharing_image }}');"></div>
 </main>
 
 </body>
